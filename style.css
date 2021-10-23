@@ -52,14 +52,13 @@ header{
     background-size: cover;
 }
 section{
-    float: left;
+    /* float: left; */
     margin-top: 50px;
 }
 h1{
-    display:block;
-    font-size: 50px;
-    font-family: fantasy;
-    background-color: cornflowerblue;
-    width: 100%;
+    font-size: 40px;
+    font-family: arial;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
     text-align: center;
-}
