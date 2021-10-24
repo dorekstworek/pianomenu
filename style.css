@@ -62,7 +62,14 @@ section h1{
     text-align: center;
     text-transform: uppercase;
 }
-
+.mobile{
+    display: none;
+}
 @media (max-width:1024px){
-    
+    .desctop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
 }
