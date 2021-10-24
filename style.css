@@ -15,7 +15,7 @@ header{
 nav{
     float: left;
     width: 300px;
-    background-color: #874521;
+    /* background-color: #e97c42; */
 }
 header{
     float: left;
@@ -25,14 +25,33 @@ header{
     background-size: cover;
     background-position: center;
 }
+ul{
+    list-style: none;
+}
+i{
+    width: 60px;
+    border-right: solid 3px #666;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size:40px;
+    line-height: calc(360px / 5);
+    color: #666;
+}
+a:hover i{
+    margin-right: 80px;
+}
 section{
     margin-top: 50px;
 }
 section h1{
     font-size: 60px;
-    font-family: monospace;
-    background-color: cornflowerblue;
-    color: crimson;
+    line-height: 200%;
+    font-family: fantasy;
+    background-color: rgb(6, 8, 12);
+    color: rgb(170, 170, 170);
     text-align: center;
     text-transform: uppercase;
 }
