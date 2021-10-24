@@ -1,64 +1,38 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
 .wrap{
     max-width: 1280px;
-    margin:0 auto;
+    margin: 0 auto;
+}
+.wrap,
+nav,
+header{
+    height: 360px;
 }
 nav{
     float: left;
-    width: 400px;
-    height: 400px;
-    
-
-}
-ul{
-    list-style-type: none;
-    text-decoration: none;
-}
-a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-size: 30px;
-    line-height: 72px;
-    letter-spacing: 10px;
-    padding: 0 5px 0 30px;
-    font-family: fantasy;
-}
-i{
-    width: 40px;
-    margin-right: 10px;
-    padding-right: 50px;
-    border-right: solid black 2px;
-}
-nav a:hover i{
-    margin-right: 50px;
+    width: 300px;
+    background-color: #874521;
 }
 header{
     float: left;
-    background-image: url(/pianomenu/images/piano.jpg);
-    width: calc(100% - 400px);
-    height: 400px;
+    width: calc(100% - 300px);
+    background-image:url(/pianomenu/images/piano.jpg);
     background-repeat: no-repeat;
-    background-position:center;
     background-size: cover;
+    background-position: center;
 }
 section{
-    /* float: left; */
     margin-top: 50px;
 }
-h1{
-    font-size: 40px;
-    font-family: arial;
-    background-color: #333;
-    color: white;
-    padding: 15px 0;
+section h1{
+    font-size: 60px;
+    font-family: monospace;
+    background-color: cornflowerblue;
+    color: crimson;
     text-align: center;
+    text-transform: uppercase;
+}
