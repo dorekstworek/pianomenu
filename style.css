@@ -14,12 +14,12 @@ header{
 }
 nav{
     float: left;
-    width: 300px;
+    width: 350px;
     /* background-color: #e97c42; */
 }
 header{
     float: left;
-    width: calc(100% - 300px);
+    width: calc(100% - 350px);
     background-image:url(/pianomenu/images/piano.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,7 @@ i{
     margin-right: 20px;
 }
 a{
+    display: block;
     text-decoration: none;
     font-family: fantasy;
     font-size:40px;
