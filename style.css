@@ -37,6 +37,7 @@ i{
 }
 a{
     display: block;
+    padding: 0 0 0 20px;
     text-decoration: none;
     font-family: fantasy;
     font-size:40px;
@@ -54,7 +55,7 @@ section{
     margin-top: 50px;
 }
 section h1{
-    font-size: 60px;
+    font-size: 4vw;
     line-height: 200%;
     font-family: fantasy;
     background-color: rgb(6, 8, 12);
@@ -70,6 +71,20 @@ section h1{
         display: none;
     }
     .mobile{
+        position: fixed;
         display: block;
+        /* height: 360px; */
+        width: 80px;
+        background-color: tomato;
+    }
+    .wrap{
+        padding: 0;
+    }
+    header{
+        width: 100%;
+    }
+    i{
+        color:#d4d0d0f5;
+        border: none;
     }
 }
